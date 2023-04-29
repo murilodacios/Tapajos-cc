@@ -18,38 +18,21 @@ export function Expert() {
                     <Stack bg="gray.100" p="6" borderRadius={10}>
                         <Icon as={RiArchiveLine} fontSize="28" />
                         <Text fontSize="lg" fontWeight={500}>Gestão de projetos sustentáveis</Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                        <Text>Somos especialistas em gestão de projetos sustentáveis, com um estudo de viabilidade completo e uma execução cuidadosa e bem-sucedida de projetos de conservação florestal e preservação de biodiversidade na Amazônia brasileira.</Text>
                     </Stack>
 
                     <Stack bg="gray.100" p="6" borderRadius={10}>
                         <Icon as={RiArchiveLine} fontSize="28" />
                         <Text fontSize="lg" fontWeight={500}>Compromisso com a eliminação de gases poluentes</Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                        <Text>Estamos comprometidos com a redução de emissões de gases poluentes e ajudamos nossos clientes a alcançarem suas metas de sustentabilidade por meio da venda de créditos de carbono certificados e verificados.</Text>
                     </Stack>
 
                     <Stack bg="gray.100" p="6" borderRadius={10}>
                         <Icon as={RiArchiveLine} fontSize="28" />
                         <Text fontSize="lg" fontWeight={500}>Parceria com líderes da industria  </Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                        <Text>Trabalhamos em parceria com líderes da indústria para oferecer soluções personalizadas e acessíveis para ajudar nossos clientes a reduzir suas emissões de carbono e alcançar suas metas de sustentabilidade.</Text>
                     </Stack>
 
-                    <Stack bg="gray.100" p="6" borderRadius={10}>
-                        <Icon as={RiArchiveLine} fontSize="28" />
-                        <Text fontSize="lg" fontWeight={500}>Gestão de projetos sustentáveis</Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
-                    </Stack>
-
-                    <Stack bg="gray.100" p="6" borderRadius={10}>
-                        <Icon as={RiArchiveLine} fontSize="28" />
-                        <Text fontSize="lg" fontWeight={500}>Compromisso com a eliminação de gases poluentes</Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
-                    </Stack>
-
-                    <Stack bg="gray.100" p="6" borderRadius={10}>
-                        <Icon as={RiArchiveLine} fontSize="28" />
-                        <Text fontSize="lg" fontWeight={500}>Parceria com líderes da industria  </Text>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
-                    </Stack>
                 </SimpleGrid>
 
 
