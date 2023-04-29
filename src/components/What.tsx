@@ -35,7 +35,10 @@ export function What() {
                         que querem compensar as suas próprias emissões.
                     </Text>
 
-                    <Stack borderRadius="12" bg="linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(142.86% 1017.1% at -31.22% -42.64%, #00351C 0%, #018E4B 34.26%, #0F935B 68.18%, #093422 100%);">
+                    <Stack borderRadius="12" bg={{
+                        base: "#093422",
+                        md: "#093422"
+                    }}>
 
 
                         <Grid templateColumns={{ base: "1fr", md: "3fr 0.1fr 3fr", lg: "3fr 1fr 3fr" }} borderRadius="8">
@@ -46,35 +49,35 @@ export function What() {
                                     <Text fontSize={{ base: "lg", md: "2xl" }}>Principais características dos créditos de carbono</Text>
                                 </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Certificação e validação</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Certificação e validação</Text>
                                         <Text>Os créditos de carbono são certificados e verificados: Isso significa que os créditos de carbono são emitidos apenas após a validação e certificação de organizações independentes e credenciadas, garantindo sua autenticidade e qualidade.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Os créditos de carbono são rastreáveis</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Os créditos de carbono são rastreáveis</Text>
                                         <Text>Os créditos de carbono são rastreados em um sistema centralizado para garantir que cada crédito seja único e que seu uso possa ser rastreado ao longo do tempo.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Os créditos de carbono são uma forma eficaz de mitigação de carbono</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Os créditos de carbono são uma forma eficaz de mitigação de carbono</Text>
                                         <Text>Comprando créditos de carbono, as empresas podem compensar suas emissões de carbono, contribuindo para a redução da emissão de gases de efeito estufa na atmosfera.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
                             </Stack>
 
                             <Stack>
@@ -87,35 +90,35 @@ export function What() {
                                     <Text fontSize="2xl">Benefícios para sua empresa</Text>
                                 </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Fortalecimento da marca e imagem corporativa</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Fortalecimento da marca e imagem corporativa</Text>
                                         <Text>As empresas que geram créditos de carbono demonstram publicamente seu compromisso com a sustentabilidade e o meio ambiente, o que pode aumentar sua reputação e imagem corporativa.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Redução de custos</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Redução de custos</Text>
                                         <Text>Em muitos casos, a compra de créditos de carbono pode ser mais econômica do que investir em tecnologias de redução de emissões de carbono em suas próprias operações.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
 
-                                <HStack spacing="4" align="flex-start">
+                                <Stack spacing="4" align="flex-start" direction={{base: "column", md: "row"}}>
                                     <Stack border="1px solid #fff" p="4" align="center" justify="center" borderRadius="4">
                                         <Icon as={RiImage2Line} fontSize="25" />
                                     </Stack>
                                     <Stack spacing="2">
-                                        <Text fontWeight="600" fontSize="md">Conformidade regulatória</Text>
+                                        <Text fontWeight="600" fontSize="md" color="green.200">Conformidade regulatória</Text>
                                         <Text>Comprar créditos de carbono pode ajudar as empresas a cumprir com as regulamentações e políticas governamentais que exigem a redução de emissões de gases de efeito estufa.</Text>
                                     </Stack>
-                                </HStack>
+                                </Stack>
                             </Stack>
 
                         </Grid>

@@ -53,8 +53,8 @@ export function Expert() {
                             </Box>
                         </Stack>
                         <Stack position="relative">
-                            <Text fontSize="lg" fontWeight={500}>Lorem ipsum dolor sit amet avec est a latim language</Text>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                            <Text fontSize="lg" fontWeight={500}>O impacto dos créditos de carbono na preservação da Amazônia</Text>
+                            <Text>Descubra como nossos projetos de créditos de carbono estão contribuindo para a preservação da Amazônia brasileira e ajudando a combater o desmatamento.</Text>
                         </Stack>
                     </Stack>
 
@@ -65,8 +65,8 @@ export function Expert() {
                             </Box>
                         </Stack>
                         <Stack position="relative">
-                            <Text fontSize="lg" fontWeight={500}>Lorem ipsum dolor sit amet avec est a latim language</Text>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                            <Text fontSize="lg" fontWeight={500}>Compre créditos de carbono e fortaleça a imagem de sua empresa</Text>
+                            <Text>Saiba como a compra de créditos de carbono pode ser uma estratégia inteligente para fortalecer a imagem e a reputação de sua empresa no mercado.</Text>
                         </Stack>
                     </Stack>
 
@@ -77,8 +77,8 @@ export function Expert() {
                             </Box>
                         </Stack>
                         <Stack position="relative">
-                            <Text fontSize="lg" fontWeight={500}>Lorem ipsum dolor sit amet avec est a latim language</Text>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate ullamcorper gravida. Duis orci turpis, blandit nec dolor eu, volutpat feugiat dui.</Text>
+                            <Text fontSize="lg" fontWeight={500}>Sustentabilidade é possível: nosso compromisso com a redução de emissões de carbono</Text>
+                            <Text>Conheça os projetos sustentáveis que estamos desenvolvendo em parceria com líderes da indústria para ajudar nossos clientes a reduzir suas emissões de carbono e alcançar suas metas de sustentabilidade.</Text>
                         </Stack>
                     </Stack>
                 </SimpleGrid>
