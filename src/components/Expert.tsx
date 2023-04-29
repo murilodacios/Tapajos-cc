@@ -99,9 +99,6 @@ export function Expert() {
                         </Stack>
                     </Stack>
                 </SimpleGrid>
-
-
-
             </Box>
 
         </>
